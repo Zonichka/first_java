@@ -1,5 +1,4 @@
 package lab3;
-import java.util.Scanner;
 
 // Класс Node берем из Task4
 class LinkedList {
