@@ -1,7 +1,7 @@
 package lab3;
 
 // Класс Node берем из Task4
-class LinkedList {
+class LinkedList<I extends Number> {
     Node head;
     Node tail;
 
@@ -37,10 +37,11 @@ class LinkedList {
         }
         System.out.println();
     }
+
 }
 public class Task7 {
     public static void main(String[] args) {
-        LinkedList listFromHead = new LinkedList();
+        LinkedList<Number> listFromHead = new LinkedList<Number>();
         System.out.println("Список с головы:");
         listFromHead.addNodeAtHead(1);
         listFromHead.printList();
@@ -49,7 +50,7 @@ public class Task7 {
         listFromHead.addNodeAtHead(3);
         listFromHead.printList();
 
-        LinkedList listFromTail = new LinkedList();
+        LinkedList<Number> listFromTail = new LinkedList<Number>();
         System.out.println("\nСписок с хвоста:");
         listFromTail.addNodeAtTail(1);
         listFromTail.printList();
