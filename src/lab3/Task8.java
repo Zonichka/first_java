@@ -106,8 +106,6 @@ class LinkedListRec {
         head = addToHeadRecursive(head, data);
     }
 
-    @org.jetbrains.annotations.NotNull
-    @org.jetbrains.annotations.Contract("null, _ -> new")
     private Node addToHeadRecursive(Node current, int data) {
         if (current == null) {
             return new Node(data, null);

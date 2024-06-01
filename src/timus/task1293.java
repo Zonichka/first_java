@@ -10,7 +10,7 @@ public class task1293 {
         String B = in.next();
 
 
-        System.out.println(Integer.parseInt(N.trim()) * Integer.parseInt(A.trim()) * Integer.parseInt(B.trim()));
+        System.out.println(Integer.parseInt(N.trim()) * Integer.parseInt(A.trim()) * Integer.parseInt(B.trim()) * 2);
         in.close();
     }
 }
